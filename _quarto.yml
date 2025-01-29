@@ -3,7 +3,7 @@ project:
   output-dir: "." 
 
 website:
-  title: "Levi Allen"
+  title: "YOUR NAME"
   navbar:
     # background: "#1c4982"
     pinned: true
@@ -24,4 +24,3 @@ format:
     css: styles.css
     toc: false
     include-after-body: target_blank.html
-
