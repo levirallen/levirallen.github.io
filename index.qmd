@@ -1,5 +1,5 @@
 ---
-title: "YOUR NAME" 
+title: "Levi Allen" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
@@ -9,34 +9,31 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com
+      href: https://www.linkedin.com/in/levi-allen-1159872a1/
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/levirallen/levirallen.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: resume-example.pdf
+      href: file:///C:/Users/levir/Downloads/My%20Resume.docx.pdf
       target: _blank
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:lra10@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+I'm an Economics major passionate about my degree and all things business and data related. I'm an also an avid coffee drinker and sports fan (GO BEARS!).
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Economics
+B.S. in Economics | Aug 2023 - May 2026 <br>
+Minor in College Honors Program
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+The Lakehouse Canandaigua  | Activities Ambassador | June 2024 - Aug 2024
 
 

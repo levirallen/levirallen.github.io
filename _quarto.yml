@@ -3,13 +3,21 @@ project:
   output-dir: "." 
 
 website:
-  title: "YOUR NAME"
+  title: "Levi Allen"
   navbar:
     # background: "#1c4982"
     pinned: true
     left:
       - text: Blog
         href: blog-listing.qmd
+      - text: Project
+        href: danl_proj_nba.ipynb
+      - text: Python Data Analysis
+        menu: 
+          - text: Pandas Basics
+            href: pandas_basic.ipynb
+          - text: Seaborn Basics
+            href: seaborn_basic.ipynb
             
   page-footer: 
     center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© YOUR NAME, 2025"
