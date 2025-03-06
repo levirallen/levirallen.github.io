@@ -2,7 +2,7 @@
 title: "Levi Allen" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/profile_picture.png
   image-width: 16em
   image-shape: rounded # rectangle  round  rounded
   
@@ -12,10 +12,10 @@ about:
       href: https://www.linkedin.com/in/levi-allen-1159872a1/
     - icon: github
       text: GitHub
-      href: https://github.com/levirallen/levirallen.github.io
+      href: https://github.com/levirallen/
     - icon: file-earmark-pdf
       text: Resumé
-      href: file:///C:/Users/levir/Downloads/My%20Resume.docx.pdf
+      href: my_resume.pdf
       target: _blank
     - icon: mailbox
       text: Email

@@ -15,9 +15,9 @@ website:
       - text: Python Data Analysis
         menu: 
           - text: Pandas Basics
-            href: pandas_basic.ipynb
+            href: pandas_basics.ipynb
           - text: Seaborn Basics
-            href: seaborn_basic.ipynb
+            href: seaborn_basics.ipynb
             
   page-footer: 
     center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© YOUR NAME, 2025"

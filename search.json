@@ -28,6 +28,48 @@
     "text": "Human vs. Droid\n\nggplot(data = \n         starwars %&gt;% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
   },
   {
+    "objectID": "posts/python_basic/danl_210_python_basic.html",
+    "href": "posts/python_basic/danl_210_python_basic.html",
+    "title": "Basic Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')\n\nHello, World!\n\n\n\n\n\nIn Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n10.5\n\n\n\n\n\nPython supports the usual logical conditions from mathematics:\n\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')\n\n\n\n\nA function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()\n\n\n\n\nA list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
+  },
+  {
+    "objectID": "posts/python_basic/danl_210_python_basic.html#what-is-python",
+    "href": "posts/python_basic/danl_210_python_basic.html#what-is-python",
+    "title": "Basic Python",
+    "section": "",
+    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')\n\nHello, World!"
+  },
+  {
+    "objectID": "posts/python_basic/danl_210_python_basic.html#variables-and-data-types",
+    "href": "posts/python_basic/danl_210_python_basic.html#variables-and-data-types",
+    "title": "Basic Python",
+    "section": "",
+    "text": "In Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n10.5"
+  },
+  {
+    "objectID": "posts/python_basic/danl_210_python_basic.html#control-structures",
+    "href": "posts/python_basic/danl_210_python_basic.html#control-structures",
+    "title": "Basic Python",
+    "section": "",
+    "text": "Python supports the usual logical conditions from mathematics:\n\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')"
+  },
+  {
+    "objectID": "posts/python_basic/danl_210_python_basic.html#functions",
+    "href": "posts/python_basic/danl_210_python_basic.html#functions",
+    "title": "Basic Python",
+    "section": "",
+    "text": "A function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()"
+  },
+  {
+    "objectID": "posts/python_basic/danl_210_python_basic.html#lists-and-dictionaries",
+    "href": "posts/python_basic/danl_210_python_basic.html#lists-and-dictionaries",
+    "title": "Basic Python",
+    "section": "",
+    "text": "A list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
+  },
+  {
     "objectID": "pandas_basics.html#creating-a-series",
     "href": "pandas_basics.html#creating-a-series",
     "title": "Pandas Basics",
@@ -102,49 +144,7 @@
     "href": "blog-listing.html",
     "title": "Insightful Analytics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "danl-210-python-basic.html",
-    "href": "danl-210-python-basic.html",
-    "title": "Python Basics",
-    "section": "",
-    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')\n\n\n\n\nIn Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n10.5\n\n\n\n\n\nPython supports the usual logical conditions from mathematics:\n\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')\n\n\n\n\nA function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()\n\n\n\n\nA list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
-  },
-  {
-    "objectID": "danl-210-python-basic.html#what-is-python",
-    "href": "danl-210-python-basic.html#what-is-python",
-    "title": "Python Basics",
-    "section": "",
-    "text": "Python is a high-level, interpreted programming language. This is a simple Python code:\n\nprint('Hello, World!')"
-  },
-  {
-    "objectID": "danl-210-python-basic.html#variables-and-data-types",
-    "href": "danl-210-python-basic.html#variables-and-data-types",
-    "title": "Python Basics",
-    "section": "",
-    "text": "In Python, variables can store data of different types without explicitly declaring the type.\nFor example:\n\ninteger_variable = 10\nstring_variable = 'Hello'\nfloat_variable = 10.5\n\nfloat_variable\n\n10.5"
-  },
-  {
-    "objectID": "danl-210-python-basic.html#control-structures",
-    "href": "danl-210-python-basic.html#control-structures",
-    "title": "Python Basics",
-    "section": "",
-    "text": "Python supports the usual logical conditions from mathematics:\n\n# Equals: a == b\n# Not Equals: a != b\n# Less than: a &lt; b\n# Less than or equal to: a &lt;= b\n# Greater than: a &gt; b\n# Greater than or equal to: a &gt;= b\n\nThese conditions can be used in several ways, most commonly in ‘if statements’ and loops.\n\n# if statement:\nif 5 &gt; 2:\n    print('Five is greater than two!')"
-  },
-  {
-    "objectID": "danl-210-python-basic.html#functions",
-    "href": "danl-210-python-basic.html#functions",
-    "title": "Python Basics",
-    "section": "",
-    "text": "A function is a block of code which only runs when it is called.\nYou can pass data, known as parameters, into a function.\nA function can return data as a result.\n\n# Defining a function:\ndef my_function():\n    print('Hello from a function')\n\n# Calling a function:\nmy_function()"
-  },
-  {
-    "objectID": "danl-210-python-basic.html#lists-and-dictionaries",
-    "href": "danl-210-python-basic.html#lists-and-dictionaries",
-    "title": "Python Basics",
-    "section": "",
-    "text": "A list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSpotify Blog\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Python\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -173,6 +173,13 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code with no space in the folder name.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/spotify/Spotify_Blog.html",
+    "href": "posts/spotify/Spotify_Blog.html",
+    "title": "Spotify Blog",
+    "section": "",
+    "text": "import pandas as pd\n\nspotify = pd.read_csv('https://bcdanl.github.io/data/spotify_all.csv')\nspotify\n\n\n  \n    \n\n\n\n\n\n\npid\nplaylist_name\npos\nartist_name\ntrack_name\nduration_ms\nalbum_name\n\n\n\n\n0\n0\nThrowbacks\n0\nMissy Elliott\nLose Control (feat. Ciara & Fat Man Scoop)\n226863\nThe Cookbook\n\n\n1\n0\nThrowbacks\n1\nBritney Spears\nToxic\n198800\nIn The Zone\n\n\n2\n0\nThrowbacks\n2\nBeyoncé\nCrazy In Love\n235933\nDangerously In Love (Alben für die Ewigkeit)\n\n\n3\n0\nThrowbacks\n3\nJustin Timberlake\nRock Your Body\n267266\nJustified\n\n\n4\n0\nThrowbacks\n4\nShaggy\nIt Wasn't Me\n227600\nHot Shot\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n198000\n999998\n✝️\n6\nChris Tomlin\nWaterfall\n209573\nLove Ran Red\n\n\n198001\n999998\n✝️\n7\nChris Tomlin\nThe Roar\n220106\nLove Ran Red\n\n\n198002\n999998\n✝️\n8\nCrowder\nLift Your Head Weary Sinner (Chains)\n224666\nNeon Steeple\n\n\n198003\n999998\n✝️\n9\nChris Tomlin\nWe Fall Down\n280960\nHow Great Is Our God: The Essential Collection\n\n\n198004\n999998\n✝️\n10\nCaleb and Kelsey\n10,000 Reasons / What a Beautiful Name\n178189\n10,000 Reasons / What a Beautiful Name\n\n\n\n\n198005 rows × 7 columns\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n  \n    \n    \n\n  \n    \n  \n    \n    \n  \n\n    \n  \n\n\n\nThrowbacks = spotify[\"playlist_name\"] == \"Throwbacks\"\ndata = spotify[Throwbacks]\ndata.drop_duplicates(subset = [\"track_name\"])\n\nUsher = data[\"artist_name\"] == \"Usher\"\ndata[Usher]\n\n\n  \n    \n\n\n\n\n\n\npid\nplaylist_name\npos\nartist_name\ntrack_name\nduration_ms\nalbum_name\n\n\n\n\n5\n0\nThrowbacks\n5\nUsher\nYeah!\n250373\nConfessions\n\n\n6\n0\nThrowbacks\n6\nUsher\nMy Boo\n223440\nConfessions\n\n\n24300\n380\nThrowbacks\n85\nUsher\nDJ Got Us Fallin' In Love\n220800\nRaymond v Raymond (Deluxe Edition)\n\n\n24316\n380\nThrowbacks\n101\nUsher\nYeah!\n250373\nConfessions\n\n\n24343\n380\nThrowbacks\n128\nUsher\nI Don't Mind\n251989\nI Don't Mind\n\n\n48233\n717\nThrowbacks\n23\nUsher\nOMG\n269493\nRaymond v Raymond\n\n\n186696\n999823\nThrowbacks\n2\nUsher\nOMG\n269493\nRaymond v Raymond\n\n\n186700\n999823\nThrowbacks\n6\nUsher\nDJ Got Us Fallin' In Love\n220800\nRaymond v Raymond (Deluxe Edition)"
   },
   {
     "objectID": "posts/welcome/index.html",
