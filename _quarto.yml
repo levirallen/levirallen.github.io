@@ -20,7 +20,7 @@ website:
             href: seaborn_basics.ipynb
             
   page-footer: 
-    center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© YOUR NAME, 2025"
+    center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© Levi Allen, 2025"
 
 format:
   html:
