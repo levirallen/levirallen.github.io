@@ -1,0 +1,15 @@
+---
+title: "Christmas Movies"
+author: "Levi Allen"
+date: 2025-04-09
+categories: [Christmas, entertainment, pandas]
+image: "download.jpg"
+---
+
+Christmas movies have been a family staple and holiday tradition for many over the past few decades. Looking at the dataset provided, there were over 2000 observations, but only 800 were classified as 'movies'. I cut those non-movie observations out to just look at the movies.
+
+The movie with the highest rating was called 'Holiday Twist' with a rating of 9 flat. The movie with the most number of votes, however, was 'Nightmare Before Christmas', which still had a solid rating of 7.9.
+
+Although the general public may not have agreed with me, I still believe 'Elf' and 'Christmas Vacation' are the best Christmas movies.
+
+## So have fun everyone, enjoy April, and only about 8 months until these Christmas movies start up again!

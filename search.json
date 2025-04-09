@@ -70,6 +70,13 @@
     "text": "A list is a collection which is ordered and changeable.\nA dictionary is a collection which is unordered, changeable and indexed.\n\n# List example:\nmy_list = ['apple', 'banana', 'cherry']\n\n# Dictionary example:\nmy_dict = {'name': 'John', 'age': 36}"
   },
   {
+    "objectID": "posts/christmas/danl_210_hw3_Allen_Levi_Blog.html",
+    "href": "posts/christmas/danl_210_hw3_Allen_Levi_Blog.html",
+    "title": "Levi Allen",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\n\n\nholiday_movies = pd.read_csv(\"https://bcdanl.github.io/data/holiday_movies.csv\")\ndf_1 = holiday_movies\n\n\nholiday_movie_genres = pd.read_csv(\"https://bcdanl.github.io/data/holiday_movie_genres.csv\")\ndf_2 = holiday_movie_genres\n\n\n# counting\nholiday_movies['title_type'].value_counts()\n\n\n\n\n\n\n\n\ncount\n\n\ntitle_type\n\n\n\n\n\ntvMovie\n1206\n\n\nmovie\n800\n\n\nvideo\n259\n\n\n\n\ndtype: int64\n\n\n\n# filtering\nholiday_movies_only_1 = holiday_movies[\"title_type\"] == \"movie\"\nholiday_movies_only = holiday_movies[ holiday_movies_only_1]\n\n\n# filtering\ngood_holiday_movies_only = holiday_movies_only[\"average_rating\"] &gt; 7.5\ngood_holiday_movies_only = holiday_movies_only[ good_holiday_movies_only ]\n\n\n# filtering\ngood_holiday_movies_only_1 = good_holiday_movies_only[\"num_votes\"] &gt; 100\ngood_holiday_movies_only_1 = good_holiday_movies_only[ good_holiday_movies_only_1 ]\n\n\n# sorting\ngood_holiday_movies_only_1.sort_values([\"average_rating\"], ascending = False)\n\n\n  \n    \n\n\n\n\n\n\ntconst\ntitle_type\nprimary_title\nsimple_title\nyear\nruntime_minutes\naverage_rating\nnum_votes\n\n\n\n\n2240\ntt9351856\nmovie\nHoliday Twist\nholiday twist\n2023\n95.0\n9.0\n720\n\n\n1259\ntt16274720\nmovie\nSave Christmas\nsave christmas\n2022\n90.0\n8.9\n260\n\n\n45\ntt0044008\nmovie\nA Christmas Carol\na christmas carol\n1951\n86.0\n8.1\n24671\n\n\n909\ntt13046014\nmovie\nThe Fright Before Christmas\nthe fright before christmas\n2020\nNaN\n8.0\n144\n\n\n48\ntt0046250\nmovie\nRoman Holiday\nroman holiday\n1953\n118.0\n8.0\n145289\n\n\n576\ntt0856282\nmovie\nInspector Tahar's Holiday\ninspector tahars holiday\n1972\n110.0\n8.0\n159\n\n\n2170\ntt8850510\nmovie\nOh Deer: It's Christmas\noh deer its christmas\n2018\n75.0\n8.0\n102\n\n\n269\ntt0233828\nmovie\nThe Long Holiday\nthe long holiday\n2000\n145.0\n7.9\n116\n\n\n151\ntt0107688\nmovie\nThe Nightmare Before Christmas\nthe nightmare before christmas\n1993\n76.0\n7.9\n367288\n\n\n107\ntt0085334\nmovie\nA Christmas Story\na christmas story\n1983\n93.0\n7.9\n163273\n\n\n1219\ntt15772866\nmovie\nChristmas with the Chosen: The Messengers\nchristmas with the chosen the messengers\n2021\n123.0\n7.8\n881\n\n\n19\ntt0030241\nmovie\nHoliday\nholiday\n1938\n95.0\n7.7\n17619\n\n\n149\ntt0104940\nmovie\nThe Muppet Christmas Carol\nthe muppet christmas carol\n1992\n85.0\n7.7\n66015\n\n\n1479\ntt22176928\nmovie\nUninvited for the Holidays\nuninvited for the holidays\n2022\n72.0\n7.7\n421\n\n\n198\ntt0140825\nmovie\nChristmas in August\nchristmas in august\n1998\n97.0\n7.6\n3855\n\n\n50\ntt0047673\nmovie\nWhite Christmas\nwhite christmas\n1954\n120.0\n7.6\n47688\n\n\n957\ntt13327258\nmovie\nThe Jinkx and DeLa Holiday Special\nthe jinkx and dela holiday special\n2020\n65.0\n7.6\n540\n\n\n2124\ntt8232648\nmovie\nA Christmas Carol\na christmas carol\n2018\n81.0\n7.6\n150\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\n# joining\nconcat = pd.concat([df_1, df_2], axis=1)\nconcat = concat.dropna()\nconcat = concat.drop_duplicates()"
+  },
+  {
     "objectID": "pandas_basics.html#creating-a-series",
     "href": "pandas_basics.html#creating-a-series",
     "title": "Pandas Basics",
@@ -144,7 +151,14 @@
     "href": "blog-listing.html",
     "title": "Levi’s Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSpotify Blog\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Python\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristmas Movies\n\n\n\n\n\n\n\n\nApr 9, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Blog\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Python\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "christmas.html",
+    "href": "christmas.html",
+    "title": "Christmas Movies",
+    "section": "",
+    "text": "Christmas movies have been a family staple and holiday tradition for many over the past few decades. Looking at the dataset provided, there were over 2000 observations, but only 800 were classified as ‘movies’. I cut those non-movie observations out to just look at the movies.\nThe movie with the highest rating was called ‘Holiday Twist’ with a rating of 9 flat. The movie with the most number of votes, however, was ‘Nightmare Before Christmas’, which still had a solid rating of 7.9.\nAlthough the general public may not have agreed with me, I still believe ‘Elf’ and ‘Christmas Vacation’ are the best Christmas movies.\nSo have fun everyone, enjoy April, and only about 8 months until these Christmas movies start up again!\nLevi"
   },
   {
     "objectID": "index.html",
@@ -166,6 +180,20 @@
     "title": "Levi Allen",
     "section": "Experience",
     "text": "Experience\nThe Lakehouse Canandaigua | Activities Ambassador | June 2024 - Aug 2024"
+  },
+  {
+    "objectID": "posts/christmas/christmas.html",
+    "href": "posts/christmas/christmas.html",
+    "title": "Christmas Movies",
+    "section": "",
+    "text": "Christmas movies have been a family staple and holiday tradition for many over the past few decades. Looking at the dataset provided, there were over 2000 observations, but only 800 were classified as ‘movies’. I cut those non-movie observations out to just look at the movies.\nThe movie with the highest rating was called ‘Holiday Twist’ with a rating of 9 flat. The movie with the most number of votes, however, was ‘Nightmare Before Christmas’, which still had a solid rating of 7.9.\nAlthough the general public may not have agreed with me, I still believe ‘Elf’ and ‘Christmas Vacation’ are the best Christmas movies."
+  },
+  {
+    "objectID": "posts/christmas/christmas.html#so-have-fun-everyone-enjoy-april-and-only-about-8-months-until-these-christmas-movies-start-up-again",
+    "href": "posts/christmas/christmas.html#so-have-fun-everyone-enjoy-april-and-only-about-8-months-until-these-christmas-movies-start-up-again",
+    "title": "Christmas Movies",
+    "section": "So have fun everyone, enjoy April, and only about 8 months until these Christmas movies start up again!",
+    "text": "So have fun everyone, enjoy April, and only about 8 months until these Christmas movies start up again!"
   },
   {
     "objectID": "posts/post-with-code/index.html",
