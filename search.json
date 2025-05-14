@@ -119,6 +119,27 @@
     "text": "Adding a New Column\n\n\n# Adding a new column\ndf[\"Salary\"] = [50000, 60000, 70000]\ndf\n\n\n  \n    \n\n\n\n\n\n\nName\nAge\nCity\nSalary\n\n\n\n\n0\nAlice\n25\nNew York\n50000\n\n\n1\nBob\n30\nLos Angeles\n60000\n\n\n2\nCharlie\n35\nChicago\n70000\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n  \n    \n    \n\n  \n    \n  \n    \n    \n  \n\n    \n  \n\n\n    ## Conclusion\n\n    This notebook covers the basic operations of pandas. You can explore more advanced features like merging,\n    joining, and working with time series data in pandas documentation: https://pandas.pydata.org/docs/"
   },
   {
+    "objectID": "finalproject.html",
+    "href": "finalproject.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "Do Companies Lose Money When They Turn Green?\n\nIntroduction\n\nBackground\nESG Environmental scores are a method to measure how sustainable certain company’s environmental practices are. In an era where climate change is a pressing issue, private companies doing their part in helping maintain our planet’s stability is a necessity. However, companies also need to make money to continue their business and keep their employees’ jobs. Stocks allow us to see how well a company is performing on the profit and business side of things. I want to understand what the correlation is between ESG scores and stock performance.\n\n\nThe Problem\nMany people see caring about the environment as giving up on profits and successful business practices. Are these valid concerns? Potentially. Companies that donate their money to environmental causes or invest in more expensive, cleaner energy may be increasing their costs to do so. But this does not have to be the case. Only the numbers will tell. The research questions are therefore the following: Are ESG scores and stock performance correlated? And what does this entail for businesses?\n\n\n\nData Collection\nUsing Python selenium, the data for ESG scores and stock market data was scraped from Yahoo! Finance.\n\n\nDescriptive Statistics\n\n\nExploratory Data Analysis\nI will be running a linear regression with closing stock price as the dependent variable, and environmental, social, governance, and controversy levels as the independent variables. The main question I hope to answer is if environmental scores are statistically significant in this model, but I am also curious to see if the other specific scores are significant as well.\nAfter running the regression, the environmental score was the only independent variable found to be statistically significant, with a p-value of less than 0.05. The coefficient was negative, indicating that higher ESG scores are correlated with lower stock market prices, and lower ESG scores are correlated with higher stock market prices. The adjusted r-squared, however, was quite low, at 0.002, but this is due to ESG scores being one of many factors that contribute to stock market prices.\n\n\nProject Significance\nWith the Environmental component of ESG scores being negatively correlated with stock prices, this indicates that companies who lower their scores, which means being more sustainable, may see a rise in their stock prices. This also indicates that the common assumption that being more environmentally friendly will cost companies their profits. In fact, on the contrary. More successful companies tend to be greener.\n\n\nReferences"
+  },
+  {
+    "objectID": "christmas.html",
+    "href": "christmas.html",
+    "title": "Christmas Movies",
+    "section": "",
+    "text": "Christmas movies have been a family staple and holiday tradition for many over the past few decades. Looking at the dataset provided, there were over 2000 observations, but only 800 were classified as ‘movies’. I cut those non-movie observations out to just look at the movies.\nThe movie with the highest rating was called ‘Holiday Twist’ with a rating of 9 flat. The movie with the most number of votes, however, was ‘Nightmare Before Christmas’, which still had a solid rating of 7.9.\nAlthough the general public may not have agreed with me, I still believe ‘Elf’ and ‘Christmas Vacation’ are the best Christmas movies.\nSo have fun everyone, enjoy April, and only about 8 months until these Christmas movies start up again!\nLevi"
+  },
+  {
+    "objectID": "blog-listing.html",
+    "href": "blog-listing.html",
+    "title": "Levi’s Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristmas Movies\n\n\n\n\n\n\n\n\nApr 9, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Blog\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Python\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "danl_proj_nba.html#salary-distribution-among-teams",
     "href": "danl_proj_nba.html#salary-distribution-among-teams",
     "title": "Data Analysis Project",
@@ -145,20 +166,6 @@
     "title": "Data Analysis Project",
     "section": "Top 10 Highest Paid Players",
     "text": "Top 10 Highest Paid Players\nLastly, we’ll identify the Top 10 Highest Paid Players in the NBA. Let’s visualize this information.\n\n# Identify the top 10 highest paid players\ntop_10_salaries = nba.sort_values(by='Salary', ascending=False).head(10)\n\n# Plot the top 10 highest paid players\nplt.figure(figsize=(12, 8))\nsns.barplot(data = top_10_salaries,\n            x = 'Salary', y = 'PlayerName',\n            palette = 'viridis')\nplt.title('Top 10 Highest Paid NBA Players')\nplt.xlabel('Salary')\nplt.ylabel('Player')\nplt.show()\n\n\n\n\n\n\n\n\nThe bar plot above reveals the top 10 highest-paid NBA players, showcasing those who stand at the pinnacle of the league in terms of salary. This visualization not only highlights the star players who command the highest salaries but also may reflect their marketability, performance, and contribution to their respective teams."
-  },
-  {
-    "objectID": "blog-listing.html",
-    "href": "blog-listing.html",
-    "title": "Levi’s Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristmas Movies\n\n\n\n\n\n\n\n\nApr 9, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Blog\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Python\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nLevi Allen\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "christmas.html",
-    "href": "christmas.html",
-    "title": "Christmas Movies",
-    "section": "",
-    "text": "Christmas movies have been a family staple and holiday tradition for many over the past few decades. Looking at the dataset provided, there were over 2000 observations, but only 800 were classified as ‘movies’. I cut those non-movie observations out to just look at the movies.\nThe movie with the highest rating was called ‘Holiday Twist’ with a rating of 9 flat. The movie with the most number of votes, however, was ‘Nightmare Before Christmas’, which still had a solid rating of 7.9.\nAlthough the general public may not have agreed with me, I still believe ‘Elf’ and ‘Christmas Vacation’ are the best Christmas movies.\nSo have fun everyone, enjoy April, and only about 8 months until these Christmas movies start up again!\nLevi"
   },
   {
     "objectID": "index.html",

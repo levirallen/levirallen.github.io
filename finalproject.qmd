@@ -1,0 +1,37 @@
+---
+title: "Final Project"
+author: "Levi Allen"
+date: 2025-05-14
+categories: [stocks, ESG, pandas]
+image: ""
+---
+
+# Do Companies Lose Money When They Turn Green?
+
+### *Introduction*
+
+#### Background
+
+ESG Environmental scores are a method to measure how sustainable certain company's environmental practices are. In an era where climate change is a pressing issue, private companies doing their part in helping maintain our planet's stability is a necessity. However, companies also need to make money to continue their business and keep their employees' jobs. Stocks allow us to see how well a company is performing on the profit and business side of things. I want to understand what the correlation is between ESG scores and stock performance.
+
+#### The Problem
+
+Many people see caring about the environment as giving up on profits and successful business practices. Are these valid concerns? Potentially. Companies that donate their money to environmental causes or invest in more expensive, cleaner energy may be increasing their costs to do so. But this does not have to be the case. Only the numbers will tell. The research questions are therefore the following: Are ESG scores and stock performance correlated? And what does this entail for businesses?
+
+### *Data Collection*
+
+Using Python selenium, the data for ESG scores and stock market data was scraped from Yahoo! Finance.
+
+### *Descriptive Statistics*
+
+### *Exploratory Data Analysis*
+
+I will be running a linear regression with closing stock price as the dependent variable, and environmental, social, governance, and controversy levels as the independent variables. The main question I hope to answer is if environmental scores are statistically significant in this model, but I am also curious to see if the other specific scores are significant as well.
+
+After running the regression, the environmental score was the only independent variable found to be statistically significant, with a p-value of less than 0.05. The coefficient was negative, indicating that higher ESG scores are correlated with lower stock market prices, and lower ESG scores are correlated with higher stock market prices. The adjusted r-squared, however, was quite low, at 0.002, but this is due to ESG scores being one of many factors that contribute to stock market prices.
+
+### *Project Significance*
+
+With the Environmental component of ESG scores being negatively correlated with stock prices, this indicates that companies who lower their scores, which means being more sustainable, may see a rise in their stock prices. This also indicates that the common assumption that being more environmentally friendly will cost companies their profits. In fact, on the contrary. More successful companies tend to be greener.
+
+### *References*
