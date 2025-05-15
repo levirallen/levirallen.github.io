@@ -24,6 +24,8 @@ Using Python selenium, the data for ESG scores and stock market data was scraped
 
 ### *Descriptive Statistics*
 
+\* Descriptive statistics, along with other visuals, are included within the .ipynb file\*
+
 ### *Exploratory Data Analysis*
 
 I will be running a linear regression with closing stock price as the dependent variable, and environmental, social, governance, and controversy levels as the independent variables. The main question I hope to answer is if environmental scores are statistically significant in this model, but I am also curious to see if the other specific scores are significant as well.
@@ -35,3 +37,11 @@ After running the regression, the environmental score was the only independent v
 With the Environmental component of ESG scores being negatively correlated with stock prices, this indicates that companies who lower their scores, which means being more sustainable, may see a rise in their stock prices. This also indicates that the common assumption that being more environmentally friendly will cost companies their profits. In fact, on the contrary. More successful companies tend to be greener.
 
 ### *References*
+
+Cheng, Shi, and Shan Huang. “ESG combined score effects on stock performance of S&P 500-listed firms.” *Finance Research Letters*, vol. 66, Aug. 2024, p. 105686, https://doi.org/10.1016/j.frl.2024.105686.
+
+“Sustainable Investing: ESG Ratings.” *MSCI*, 2025, www.msci.com/sustainable-investing/esg-ratings.
+
+“Yahoo Finance - Stock Market Live, Quotes, Business & Finance News.” *Yahoo! Finance*, Yahoo!, finance.yahoo.com/. Accessed 14 May 2025.
+
+Microsoft CoPilot was used for some of the coding
