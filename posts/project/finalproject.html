@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Levi Allen">
+<meta name="dcterms.date" content="2025-05-14">
 
-<title>Levi’s Blog  – Levi Allen</title>
+<title>Final Project – Levi Allen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Levi Allen</span>
     </a>
   </div>
@@ -150,11 +92,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog-listing.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog-listing.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./danl_proj_nba.html"> 
+    <a class="nav-link" href="../../danl_proj_nba.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -163,11 +105,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-python-data-analysis">    
         <li>
-    <a class="dropdown-item" href="./pandas_basics.html">
+    <a class="dropdown-item" href="../../pandas_basics.html">
  <span class="dropdown-text">Pandas Basics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./seaborn_basics.html">
+    <a class="dropdown-item" href="../../seaborn_basics.html">
  <span class="dropdown-text">Seaborn Basics</span></a>
   </li>  
     </ul>
@@ -181,303 +123,87 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Final Project</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">stocks</div>
+                <div class="quarto-category">ESG</div>
+                <div class="quarto-category">pandas</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Levi Allen </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Christmas">Christmas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ESG">ESG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(2)</span></div><div class="category" data-category="entertainment">entertainment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="pandas">pandas <span class="quarto-category-count">(3)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="spotify">spotify <span class="quarto-category-count">(1)</span></div><div class="category" data-category="starwars">starwars <span class="quarto-category-count">(1)</span></div><div class="category" data-category="stocks">stocks <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Levi’s Blog<br><br></h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="do-companies-lose-money-when-they-turn-green" class="level1">
+<h1>Do Companies Lose Money When They Turn Green?</h1>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction"><em>Introduction</em></h3>
+<section id="background" class="level4">
+<h4 class="anchored" data-anchor-id="background">Background</h4>
+<p>ESG Environmental scores are a method to measure how sustainable certain company’s environmental practices are. In an era where climate change is a pressing issue, private companies doing their part in helping maintain our planet’s stability is a necessity. However, companies also need to make money to continue their business and keep their employees’ jobs. Stocks allow us to see how well a company is performing on the profit and business side of things. I want to understand what the correlation is between ESG scores and stock performance.</p>
+</section>
+<section id="the-problem" class="level4">
+<h4 class="anchored" data-anchor-id="the-problem">The Problem</h4>
+<p>Many people see caring about the environment as giving up on profits and successful business practices. Are these valid concerns? Potentially. Companies that donate their money to environmental causes or invest in more expensive, cleaner energy may be increasing their costs to do so. But this does not have to be the case. Only the numbers will tell. The research questions are therefore the following: Are ESG scores and stock performance correlated? And what does this entail for businesses?</p>
+</section>
+</section>
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection"><em>Data Collection</em></h3>
+<p>Using Python selenium, the data for ESG scores and stock market data was scraped from Yahoo! Finance.</p>
+</section>
+<section id="descriptive-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="descriptive-statistics"><em>Descriptive Statistics</em></h3>
+</section>
+<section id="exploratory-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-data-analysis"><em>Exploratory Data Analysis</em></h3>
+<p>I will be running a linear regression with closing stock price as the dependent variable, and environmental, social, governance, and controversy levels as the independent variables. The main question I hope to answer is if environmental scores are statistically significant in this model, but I am also curious to see if the other specific scores are significant as well.</p>
+<p>After running the regression, the environmental score was the only independent variable found to be statistically significant, with a p-value of less than 0.05. The coefficient was negative, indicating that higher ESG scores are correlated with lower stock market prices, and lower ESG scores are correlated with higher stock market prices. The adjusted r-squared, however, was quite low, at 0.002, but this is due to ESG scores being one of many factors that contribute to stock market prices.</p>
+</section>
+<section id="project-significance" class="level3">
+<h3 class="anchored" data-anchor-id="project-significance"><em>Project Significance</em></h3>
+<p>With the Environmental component of ESG scores being negatively correlated with stock prices, this indicates that companies who lower their scores, which means being more sustainable, may see a rise in their stock prices. This also indicates that the common assumption that being more environmentally friendly will cost companies their profits. In fact, on the contrary. More successful companies tend to be greener.</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references"><em>References</em></h3>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1744220413162">
-<div class="thumbnail">
-<p><a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external"></a></p><a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external"></a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external"></a></p><a href="./posts/christmas/danl_210_hw3_Allen_Levi_Blog.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1747340385834">
-<div class="thumbnail">
-<p><a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external"></a></p><a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external">
-<p class="card-img-top"><img src="posts\project\danl_210_Allen_Levi_stock_ESG_files\figure-html\cell-7-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external"></a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external"></a></p><a href="./posts/project/danl_210_Allen_Levi_stock_ESG.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="stocks,ESG,pandas" data-listing-date-sort="1747195200000" data-listing-file-modified-sort="1747253786810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
-<div class="thumbnail">
-<p><a href="./posts/project/finalproject.html" class="no-external"></a></p><a href="./posts/project/finalproject.html" class="no-external">
-<p><img loading="lazy" src="./posts/project" class="thumbnail-image"></p>
-</a><p><a href="./posts/project/finalproject.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/project/finalproject.html" class="no-external">Final Project</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/project/finalproject.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/project/finalproject.html" class="no-external">
-<div class="listing-date">
-May 14, 2025
-</div>
-<div class="listing-author">
-Levi Allen
-</div>
-<div class="listing-reading-time">
-2 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Christmas,entertainment,pandas" data-listing-date-sort="1744171200000" data-listing-file-modified-sort="1744220500362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<div class="thumbnail">
-<p><a href="./posts/christmas/christmas.html" class="no-external"></a></p><a href="./posts/christmas/christmas.html" class="no-external">
-<p><img loading="lazy" src="./posts/christmas/download.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/christmas/christmas.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/christmas/christmas.html" class="no-external">Christmas Movies</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/christmas/christmas.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/christmas/christmas.html" class="no-external">
-<div class="listing-date">
-Apr 9, 2025
-</div>
-<div class="listing-author">
-Levi Allen
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="python,pandas,spotify" data-listing-date-sort="1741237200000" data-listing-file-modified-sort="1741295224876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/spotify/Spotify_Blog.html" class="no-external"></a></p><a href="./posts/spotify/Spotify_Blog.html" class="no-external">
-<p><img loading="lazy" src="./posts/spotify/Spotify_Picture.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/spotify/Spotify_Blog.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/spotify/Spotify_Blog.html" class="no-external">Spotify Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/spotify/Spotify_Blog.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/spotify/Spotify_Blog.html" class="no-external">
-<div class="listing-date">
-Mar 6, 2025
-</div>
-<div class="listing-author">
-Levi Allen
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="python" data-listing-date-sort="1741237200000" data-listing-file-modified-sort="1741295726199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
-<div class="thumbnail">
-<p><a href="./posts/python_basic/danl_210_python_basic.html" class="no-external"></a></p><a href="./posts/python_basic/danl_210_python_basic.html" class="no-external">
-<p><img loading="lazy" src="./posts/python_basic/Python_image.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/python_basic/danl_210_python_basic.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/python_basic/danl_210_python_basic.html" class="no-external">Basic Python</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/python_basic/danl_210_python_basic.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/python_basic/danl_210_python_basic.html" class="no-external">
-<div class="listing-date">
-Mar 6, 2025
-</div>
-<div class="listing-author">
-Levi Allen
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="news" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1737918013751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jan 22, 2025
-</div>
-<div class="listing-author">
-YOUR NAME
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="starwars,code,analysis" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1737918013547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="438">
-<div class="thumbnail">
-<p><a href="./posts/starwars/starwars_df.html" class="no-external"></a></p><a href="./posts/starwars/starwars_df.html" class="no-external">
-<p><img loading="lazy" src="./posts/starwars/image.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/starwars/starwars_df.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/starwars/starwars_df.html" class="no-external">Starwars</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/starwars/starwars_df.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/starwars/starwars_df.html" class="no-external">
-<div class="listing-date">
-Jan 22, 2025
-</div>
-<div class="listing-author">
-Your Name
-</div>
-<div class="listing-reading-time">
-3 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="news,code,analysis" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1744141961192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Jan 22, 2025
-</div>
-<div class="listing-author">
-YOUR NAME
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script type="text/javascript" src="links.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

@@ -3,10 +3,10 @@ title: "Final Project"
 author: "Levi Allen"
 date: 2025-05-14
 categories: [stocks, ESG, pandas]
-image: "sustainability.jpg"
+image: ""
 ---
 
-# Do Companies Lose Money When They Go Green?
+# Do Companies Lose Money When They Turn Green?
 
 ### *Introduction*
 
@@ -16,23 +16,13 @@ ESG Environmental scores are a method to measure how sustainable certain company
 
 #### The Problem
 
-Many people see caring about the environment as giving up on profits and successful business practices. Are these valid concerns? Potentially. Companies that donate their money to environmental causes or invest in more expensive, cleaner energy may be increasing their costs to do so. But this does not have to be the case. Only the numbers will tell. The research questions are therefore the following:
-
--   Are ESG Environmental scores and Close values correlated using a linear regression?
-
--   If so, how are they correlated?
-
--   What does this correlation mean?
-
--   What does this entail for businesses?
+Many people see caring about the environment as giving up on profits and successful business practices. Are these valid concerns? Potentially. Companies that donate their money to environmental causes or invest in more expensive, cleaner energy may be increasing their costs to do so. But this does not have to be the case. Only the numbers will tell. The research questions are therefore the following: Are ESG scores and stock performance correlated? And what does this entail for businesses?
 
 ### *Data Collection*
 
 Using Python selenium, the data for ESG scores and stock market data was scraped from Yahoo! Finance.
 
 ### *Descriptive Statistics*
-
-\*Descriptive statistics, along with other visuals are present within the .ipynb file\*
 
 ### *Exploratory Data Analysis*
 
@@ -42,14 +32,6 @@ After running the regression, the environmental score was the only independent v
 
 ### *Project Significance*
 
-With the Environmental component of ESG scores being negatively correlated with stock prices, this indicates that companies who have lower Environmental scores, which means being more sustainable, tend to see higher stock prices. This also indicates that the common assumption that being more environmentally friendly will cost companies their profits is false. In fact, on the contrary, the more successful companies tend to be greener.
+With the Environmental component of ESG scores being negatively correlated with stock prices, this indicates that companies who lower their scores, which means being more sustainable, may see a rise in their stock prices. This also indicates that the common assumption that being more environmentally friendly will cost companies their profits. In fact, on the contrary. More successful companies tend to be greener.
 
 ### *References*
-
-Cheng, Shi, and Shan Huang. “ESG combined score effects on stock performance of S&P 500-listed firms.” Finance Research Letters, vol. 66, Aug. 2024, p. 105686, https://doi.org/10.1016/j.frl.2024.105686.
-
-Microsoft CoPilot was used for some of the code
-
-“Sustainable Investing: ESG Ratings.” *MSCI*, 2025, www.msci.com/sustainable-investing/esg-ratings.
-
-“Yahoo Finance - Stock Market Live, Quotes, Business & Finance News.” Yahoo! Finance, Yahoo!, finance.yahoo.com/. Accessed 14 May 2025.
